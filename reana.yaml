@@ -1,11 +1,11 @@
 version: 0.3.0
 inputs:
   files:
-    - code/myproject.ipynb
-    - data/mydata.csv
+    - code\myproject.ipynb
+    - data\mydata.txt
   parameters:
-    notebook: code/myproject.ipynb
-    input_file: data/mydata.csv
+    notebook: code\myproject.ipynb
+    input_file: data\mydata.txt
     output_file: results/plot.png
 workflow:
   type: serial
